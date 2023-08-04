@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&family=Raleway:wght@500&family=Russo+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="flex.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="maindiv">
+        <div class="logindesign">
+            <div id="center-image">
+                <img src="logo.png" alt="LogoImage" id="logoimg"
+                    style="width:12%; height: 60%; margin-bottom:1.5%;">
+                <span id="sp">Arty Chairs</span>
+            </div>
+            <div id="feddiv">
+                <form id="frm">
+                    <fieldset id="fdset">
+                        <legend id="leg">Log In</legend>
+                        <div id="profdiv">
+                            <img src="Profile.png" alt="profimg" style="width:30%;">
+                        </div>
+                        <div class="textbox" id="textboxId" style="padding-top: 6%;">
+                            <label class="lbl" for="Username" id="userLabel">Enter Email</label>
+                            <img src="Group 41.png" alt="iconemail" class="login__icon">
+                            <input type="text" class="inputtextbox" name="username" placeholder="User Name / Email / Phone No">
+                        </div>
+                        <div class="textbox" id="textboxId1" style="padding-top: 6%; margin-bottom:4%;">
+                            <label class="lbl" for="Password" id="PasswordLabel">Enter Password</label>
+                            <img src="Group 42.png" alt="iconemail" class="login__icon">
+                            <input type="Password" class="inputtextbox" name="Password" placeholder="Password">
+                        </div>
+                        <div class="textbox" style="justify-content:space-between; ">
+                            <button type="submit" class="loginbutton" style="width: 40%;">Sign in</button>
+                            <button type="submit" class="loginbutton" style="width: 55%;">Forgot Password</button>
+                        </div>
+                        <div class="textbox">
+                            <button class="loginbutton" id="navigateButton" style="width: 100%;">
+                                <a href="stylereg.html">New Registration</a>
+                            </button>
+                        </div>
+                        <div class="textbox1">
+                            <div class="hed">
+                                <span id="abc">Login with</span>
+                            </div>
+                            <div class="icn">
+                                <a href="http://www.facebook.com/login.html">
+                                    <img src="facebook.png" alt="fbicon" title="Go to facebook"
+                                        class="social-login__icon">
+                                </a>
+                            </div>
+                            <div class="icn">
+                                <a href="#">
+                                    <img src="instagram.png" alt="fbicon" title="Go to Instagram"
+                                        class="social-login__icon">
+                                </a>
+                            </div>
+                            <div class="icn">
+                                <a href="#">
+                                    <img src="twt.png" alt="fbicon" title="Go to Twitter"
+                                        class="social-login__icon">
+                                </a>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
